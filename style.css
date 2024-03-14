@@ -161,7 +161,7 @@ padding: 1rem 1.5rem;
 }
 
 .header-down{
-    background-color: pink;
+    background-color: var(--dark);
 }
 
 .header-down-wrapper{
@@ -421,4 +421,363 @@ padding: 1rem 1.5rem;
     background-size: cover;
     background-position: center;
     padding: 5rem 0;
+}
+
+.banner2-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.banner2-left-text h4{
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.banner2-left-text h2{
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1;
+    margin: 3rem 0;
+}
+
+.banner2-left-text p{
+    font-size: 1.5rem;
+
+}
+
+.banner2-left-text p span{
+    background-color: var(--dark);
+    color: var(--light);
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.banner2-left-column{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner2-left-column-content{
+    width: 22rem;
+}
+
+.banner2-left-column-content h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.banner2-left-column-content p{
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.banner2-right{
+    margin-right: -20rem;
+}
+
+.banner2-right img{
+    width: 200rem;
+}
+
+
+/* ============ IT SOLUTIONS SECTION ============ */
+.solutions{
+    padding: 8rem 0;
+    background-color: var(--dark);
+}
+
+.solutions-bg{
+    background-image: url('./img/IT\ solutions-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.solutions-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.solutions-right img{
+    width: 60rem;
+}
+
+.solutions-left-title{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.solutions-left-title img{
+    width: 10rem;
+}
+
+.solutions-left-title p{
+    font-size: 2rem;
+    color: var(--light);
+    opacity: 70%;
+}
+
+.solutions-left-label{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--light);
+    margin: 3rem 0;
+
+}
+
+.solutions-left-desc{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--light);
+}
+
+.solutions-left-list{
+    margin-top: 3rem;
+}
+
+.solutions-left-list li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.solutions-left-list li img{
+    min-height: 2rem;
+}
+
+.solutions-left-list li p{
+    color: var(--light);
+    font-size: 1.7rem;
+}
+
+.solutions-bottom{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.solutions-bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.solutions-bottom-content img{
+    max-width: 12rem;
+}
+
+.solutions-bottom-content p{
+    font-size: 2.3rem;
+    color: var(--light);
+    width: 10rem;
+    opacity: 80%;
+}
+
+.empower{
+    margin-top: 10rem;
+}
+
+.empower-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.empower-title{
+    font-size: 4rem;
+    color: var(--yellow);
+    font-weight: 600;
+    line-height: 1.2;
+    padding-right: 10rem;
+    border-right: 3px solid var(--yellow);
+
+}
+
+.empower-title span{
+    color: var(--light);
+}
+
+.empower-left{
+    padding-left: 10rem; 
+}
+
+.empower-left p{
+    color: var(--light);
+    font-size: 1.5rem;
+}
+
+.empower-btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: fit-content;
+    margin-top: 2rem;
+}
+
+.empower-btn a{
+    color: var(--light);
+    font-weight: 600;
+}
+
+
+/* ============ BANNER 3 SECTION ============ */
+.banner3 {
+    background-color: var(--dark);
+}
+
+.sub-section-1-top{
+    background-image: url('./img/banner3-grid.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-section-1-top-img{
+    width: 80rem;
+    height: 70rem;
+}
+
+.sub-section-1-down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -3rem;
+}
+
+.sub-section-1-down-contents{
+    width: 35rem;
+    padding: 1.5rem 0;
+    background: rgb(34,27,45);
+    background: linear-gradient(-180deg, rgba(34,27,45,1) 0%, rgba(42,36,64,1) 100%); 
+    border-radius: 10px;
+    box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -webkit-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -moz-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+}
+
+.sub-section-1-down-contents-title{
+    color: var(--light);
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+.sub-section-1-down-contents-title span{
+    display: block;
+}
+
+.sub-section-1-down-contents-text{
+    color: var(--light);
+    text-align: center;
+    font-size: 1.3rem;
+    opacity: 50%;
+    width: 25rem;
+    margin: 0 auto;
+}
+
+.sub-section-2{
+    margin-top: 10rem;
+    position: relative;
+}
+
+.sub-section-2-gradient{
+    position: absolute;
+    top: -40rem;
+    right: -55rem;
+}
+
+.sub-section-2-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.sub-section-2-title img{
+    width: 15rem;
+}
+
+.sub-section-2-title p{
+    font-size: 1.8rem;
+    color: var(--light);
+    font-weight: 600;
+}
+
+.sub-section-2-label{
+    text-align: center;
+    font-size: 4rem;
+    color: var(--yellow);
+    font-weight: 700;
+    line-height: 1;
+    margin-top: 3rem;
+}
+
+.sub-section-2-label span{
+    display: block;
+    color: var(--light);
+}
+
+.testimonial-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.testimonial-contents{
+    background-image: url('./img/rev-box.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 3rem ;
+}
+
+.testimonial-ratings{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--yellow);
+    margin-bottom: 2rem;
+}
+
+.testimonial-feedback{
+    font-size: 1.3rem;
+    color: var(--light);
+    text-align: justify;
+}
+
+.testimonial-client{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.testimonial-name h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--light);
+}
+
+.testimonial-name h6{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--light);
+    opacity: 50%;
 }
