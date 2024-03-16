@@ -420,7 +420,7 @@ img {
 @media screen and (max-width: 430px) {
 
     .hero-wrapper{
-        margin-top: 12rem;
+        padding-top: 5rem;
     }
 
     .hero-text{
@@ -428,7 +428,7 @@ img {
     }
 
     .hero-bg{
-        height: 70vh;
+        height: 50vh;
     }
 
     .hero-wrapper h1{
