@@ -248,7 +248,6 @@ img {
     .header-mobile{
         display: unset;
         position: relative;
-        background-color: #393746;
     }
 
     .header-mobile .container{
@@ -274,8 +273,9 @@ img {
         top: 8.6rem;
         width: 100%;
         left: 0;
-        background-color: rgba(57, 55, 70, 0.95);
+        background-color: rgba(57, 55, 70, .95);
         transition: .5s ease;
+        z-index: 1;
     }
 
     .header-mobile-nav.open{
@@ -1784,3 +1784,305 @@ img {
     }
     
 }
+
+/* ==================================================== */
+/*                   CONTACT PAGE                       */
+/* ==================================================== */
+.contact-hero{
+    background-color: var(--dark);
+}
+
+.contact-hero-bg{
+    background-image: url('./img/contact-hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 5rem 0;
+}
+
+.contact-hero-title h1{
+    font-size: 5rem;
+    font-weight: 700;
+    text-align: center;
+    color: var(--light);
+}
+
+.contact-hero-title h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--light);
+    text-align: center;
+    margin-top: -.5rem;
+}
+
+.contact-hero-wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 8rem;
+}
+
+.contact-hero-left{
+    width: 40rem;
+}
+
+.contact-hero-left-title{
+    font-size: 3.5rem;
+    color: var(--light);
+    font-weight: 700;
+}
+
+.contact-hero-left-list{
+    margin-top: 2rem;
+}
+
+.contact-hero-left-list li{
+    padding-top: 1.5rem;
+    border-bottom: 1px solid var(--light);
+    padding-bottom: 1rem;
+}
+
+.contact-hero-left-list li a{
+    color: var(--light);
+    opacity: 50%;
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+
+.contact-hero-left-list li:hover a{
+    color: var(--yellow);
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.contact-hero-left-btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: fit-content;
+    margin-top: 5rem;
+    color: var(--light);
+}
+
+.contact-hero-left-btn p{
+    padding-right: 1rem;
+}
+
+.contact-hero-right{
+    padding: 2rem;
+    border: 1px solid var(--yellow);
+    width: 50rem;
+}
+
+.contact-hero-right-title{
+    font-size: 2.3rem;
+    color: var(--light);
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.contact-hero-right-text{
+    font-size: 1.5rem;
+    color: var(--light);
+    margin-bottom: 2rem;
+}
+
+.contact-hero-right-img img{
+    width: 40rem;
+    margin-bottom: 2rem;
+}
+
+.contact-hero-right-details h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--light);
+    margin-bottom: 2rem;
+}
+
+.contact-hero-right-contents{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.contact-hero-right-contents-list a{
+    display: block;
+    color: var(--light);
+    margin-bottom: 1rem;
+}
+
+.contact-hero-right-contents-list a:hover{
+    color: var(--yellow);
+}
+
+.contact-hero-right-contents-list a i{
+    padding-right: 1rem;
+}
+
+.contact-hero-right-socials{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.contact-hero-right-socials li a{
+    font-size: 1.8rem;
+    color: var(--light);
+}
+
+.contact-hero-right-socials li a:hover{
+    font-size: 1.8rem;
+    color: var(--yellow);
+}
+
+@media screen and (max-width: 430px) {
+    .contact-hero-title h1{
+        font-size: 4rem;
+    }
+    
+    .contact-hero-title h2{
+        font-size: 1.5rem;
+        margin-top: 0;
+    }
+
+    .contact-hero-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 8rem;
+    }
+    
+    .contact-hero-left{
+        width: unset;
+        margin-left: 2rem;
+    }
+
+    .contact-hero-right{
+        padding: 2rem;
+        margin: 0 2rem;
+        width: fit-content;
+    }
+
+    .contact-hero-right-contents-list a{
+        font-size: 1.4rem;
+    }
+
+    .contact-hero-right-socials{
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+}
+
+
+/* ============ CONTACT-SERVICES SECTION ============ */
+.contact-services{
+    background-image: url('./img/services-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 8rem 0;
+}
+
+.contact-services-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-services-title h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--light);
+}
+
+.contact-services-title img{
+    width: 15rem;
+}
+
+.contact-services-bigTitle{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--yellow);
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 2rem;
+}
+
+.contact-services-bigTitle span{
+    display: block;
+    color: var(--light);
+}
+
+.contact-services-wrapper{
+    margin-top: 5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.contact-services-item{
+    position: relative;
+}
+
+.contact-services-item:hover{
+    cursor: pointer;
+}
+
+.contact-services-item-bg{
+    min-width: 35rem;
+}
+
+.contact-services-text{
+    background-image: url('./img/services-blur.png');
+    width: 97%;
+    height: 10rem;
+    padding: 1rem  1.5rem;
+    position: absolute;
+    bottom: .7rem;
+}
+
+.contact-services-text p{
+    font-size: 3rem;
+    width: 25rem;
+    font-weight: 600;
+    color: var(--light);
+    line-height: 1.2;
+}
+
+/* SLIDER CSS */
+.contact-services .tns-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+@media screen and (max-width: 430px) {
+
+    .contact-services-title h2{
+        font-size: 2.5rem;
+    }
+    
+    .contact-services-title img{
+        width: 10rem;
+    }
+    
+    .contact-services-bigTitle{
+        font-size: 3.5rem;
+    }
+
+    
+    .contact-services-wrapper{
+        gap: 2rem;
+    }
+
+    div#tns1-mw {
+        margin: 0 .5rem;
+    }
+}
+
