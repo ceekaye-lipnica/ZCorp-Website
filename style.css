@@ -207,7 +207,12 @@ img {
 .header-nav ul li a{
     margin-right: 1rem;
     color: var(--light);
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.header-nav ul li a:hover{
+    color: var(--yellow);
 }
 
 .header-nav ul li i{
