@@ -153,6 +153,8 @@ img {
 --dark:#111119;
 --light: #ffffff;
 --yellow: #FFCD17;
+--grey: #393746;
+--darkGrey:#191A21;
 }
 
 
@@ -184,7 +186,7 @@ img {
 }
 
 .header-down{
-    background-color: #393746;
+    background-color: var(--grey);
 }
 
 .header-down-wrapper{
@@ -256,7 +258,7 @@ img {
     }
 
     .header-mobile .container{
-        background-color: #393746;
+        background-color: var(--grey);
     }
 
     .header-mobile-wrapper{
@@ -1221,7 +1223,7 @@ img {
 }
 
 .sub-section-3{ 
-    background-color: #191A21;
+    background-color: var(--darkGrey);
     width: 60rem;
     padding: 3.5rem;
     border:1px solid var(--yellow);
@@ -2091,3 +2093,295 @@ img {
     }
 }
 
+
+/* ==================================================== */
+/*                   ABOUT US PAGE                      */
+/* ==================================================== */
+.about-hero{
+    background-color: var(--dark);
+}
+
+.about-hero-bg{
+    background-image: url('./img/about-us-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 5rem 0;
+}
+
+.about-hero-title h1{
+    font-size: 5rem;
+    color: var(--light);
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-hero-title h2{
+    font-size: 1.7rem;
+    color: var(--light);
+    font-weight: 700;
+    text-align: center;
+}
+
+.about-hero-wrapper{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 2rem;
+    padding-bottom: 15rem;
+}
+
+.about-hero-description{
+    padding: 4rem;
+    background-color: var(--grey);
+    border: 1px solid var(--yellow);
+    max-width: 60rem;
+    z-index: 1;
+    margin-bottom: -10rem;
+}
+
+.about-hero-description h2{
+    font-size: 3rem;
+    color: var(--yellow);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.about-hero-description p{
+    color: var(--light);
+    font-size: 1.5rem;
+    opacity: 80%;
+    text-align: justify;
+}
+
+.about-hero-description p span{
+    color: var(--yellow);
+}
+
+.about-hero-img{
+    width: 450rem;
+    margin-left: -10rem;
+}
+
+.about-hero-bottom{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+
+.about-hero-bottom-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about-hero-bottom-content img{
+    max-width: 12rem;
+}
+
+.about-hero-bottom-content p{
+    font-size: 2.3rem;
+    color: var(--light);
+    width: 10rem;
+    opacity: 80%;
+}
+
+@media screen and (max-width: 430px) {
+    .about-hero-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        margin-top: 5rem;
+    }
+    
+    .about-hero-description{
+        padding: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        max-width: fit-content;
+        margin-bottom: 0;
+        order: 2;
+    }
+
+    .about-hero-description h2{
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    .about-hero-img{
+        width: fit-content;
+        margin-left: 0;
+    }
+    
+    .about-hero-bottom{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+        padding-bottom: 5rem;
+    }
+
+}
+
+
+/* ============ ABOUT BANNER 2 SECTION ============ */
+.about-banner{
+    padding: 5rem 0;
+    background-color: var(--dark);
+    position: relative;
+}
+
+.about-banner-gradient{
+    position: absolute;
+    width: 500rem;
+    top: -30rem;
+    left: 5%;
+}
+
+.about-banner-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-banner-img{
+    width: 250rem;
+    z-index: 1;
+}
+
+.about-banner-description{
+    padding: 4rem;
+    background-color: var(--darkGrey);
+    border: 1px solid var(--yellow);
+    max-width: 70rem;
+    z-index: 1;
+    margin-left: -10rem;
+    margin-top: -10rem;
+}
+
+.about-banner-description p{
+    color: var(--light);
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+.about-banner-description p:last-child{
+    margin-top: 2rem;
+}
+
+.about-banner-description p span{
+    color: var(--yellow);
+}
+
+@media screen and (max-width: 430px){
+
+    .about-banner{
+        padding-top: 0;
+    }
+
+    .about-banner-gradient{
+        position: absolute;
+        width: fit-content;
+        top: -10rem;
+        left: 5%;
+    }
+    
+    .about-banner-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+    .about-banner-img{
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        z-index: 1;
+    }
+
+    .about-banner-description{
+        padding: 3rem;
+        background-color: var(--darkGrey);
+        border: 1px solid var(--yellow);
+        max-width: fit-content;
+        z-index: 1;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-top: 0;
+    }
+    
+    .about-banner-description p{
+        color: var(--light);
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    
+}
+
+/* ============ ABOUT-SERVICES SECTION ============ */
+.about-us-services{
+    background-color: var(--dark);
+    padding: 5rem 0 ;
+}
+
+@media screen and (max-width: 430px){
+    .about-us-services{
+        padding: 3rem 0 ;
+    }
+}
+
+/* ============ ABOUT-BANNER 4 SECTION ============ */
+.about-banner4{
+    background-color: var(--dark);
+    padding: 5rem 0;
+}
+
+
+.about-banner4-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.about-banner4-wrapper h2{
+    font-size: 4rem;
+    color: var(--light);
+    font-weight: 700;
+}
+
+.about-banner4-wrapper p{
+    font-size: 2rem;
+    margin: 1.5rem 0;
+    color: var(--light);
+}
+
+.about-banner4-btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 1px solid var(--light);
+}
+
+.about-banner4-btn a{
+    color: var(--light);
+    font-weight: 800;
+    padding: .5rem 0;
+}
+
+@media screen and (max-width: 430px) {
+    .about-banner4-wrapper h2{
+        font-size: 3rem;
+        text-align: center;
+        line-height: 1;
+    }
+}
