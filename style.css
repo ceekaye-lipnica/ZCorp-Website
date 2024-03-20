@@ -2385,3 +2385,215 @@ img {
         line-height: 1;
     }
 }
+
+
+/* ==================================================== */
+/*              SOFTWARE DEVELOPMENT PAGE               */
+/* ==================================================== */
+.soft-dev-hero{
+    background-color: var(--dark);
+}
+
+.soft-dev-bg{
+    padding: 5rem 0;
+    height: 80vh;
+    background-image: url('./img/soft-dev-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.soft-dev-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 4rem;
+}
+
+.soft-dev-title{
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--light);
+    line-height: 1.2;
+}
+
+.soft-dev-title span{
+    color: var(--yellow);
+}
+
+.soft-dev-text{
+    color: var(--light);
+    font-size: 1.7rem;
+    opacity: 70%;
+    width: 70%;
+}
+
+.soft-dev-btn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: fit-content;
+}
+
+.soft-dev-btn a{
+    color: var(--light);
+}
+
+/* ============ SOFT-DEV SERVICES SECTION ============ */
+.soft-dev-services{
+    background-color: var(--dark);
+    padding: 5rem 0;
+}
+
+.soft-dev-services-bigTitle{
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--light);
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 2rem;
+}
+
+.soft-dev-services-wrapper{
+    margin-top: 8rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+}
+
+.soft-dev-services-item{
+    position: relative;
+}
+
+.soft-dev-services-item-bg{
+    min-width: 35rem;
+}
+
+.soft-dev-services-text{
+    background-image: url('./img/services-blur.png');
+    width: 100%;
+    height: 10rem;
+    padding: 1rem  1.5rem;
+    position: absolute;
+    bottom: .7rem;
+}
+
+.soft-dev-services-text p{
+    font-size: 3rem;
+    width: 25rem;
+    font-weight: 600;
+    color: var(--light);
+    line-height: 1.2;
+}
+
+@media screen and (max-width: 430px) {
+
+    .soft-dev-services-bigTitle{
+        font-size: 4rem;
+    }
+
+    .soft-dev-services-item-bg{
+        min-width: 20rem;
+    }
+
+    .soft-dev-services-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+/* ============ PROGRAMMING LANGUAGE SECTION ============ */
+.programming{
+    padding: 1rem 0;
+    background-color: var(--dark);
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.programming-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.programming-content{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.programming-content p{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--light);
+    opacity: 70%;
+}
+
+.programming-content i{
+    color: var(--yellow);
+}
+
+@media screen and (max-width: 430px) {
+    .programming-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+}
+
+/* ============ SOFT-DEV POINTS SECTION ============ */
+.soft-dev-points{
+    background-color: var(--dark);
+    padding: 5rem 0;
+}
+
+.soft-dev-points-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: var(--light);
+    text-align: center;
+}
+
+.soft-dev-points-title span{
+    color: var(--yellow);
+}
+
+.soft-dev-points-wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.soft-dev-points-left, .soft-dev-points-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 60rem;
+}
+
+.soft-dev-points-left-contents h3{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--light);
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.soft-dev-points-left-contents h3 i{
+    color: var(--yellow);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.soft-dev-points-left-contents p{
+    color: var(--light);
+    opacity: 70%;
+    font-size: 1.8rem;
+    margin-left: 2.5rem;
+}
