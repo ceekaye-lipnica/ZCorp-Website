@@ -2794,6 +2794,7 @@ img {
     gap: 5rem;
     margin-top: 10rem;
 
+    background-image: unset;
     background-image: url('./img/process-line.svg');
     background-repeat: no-repeat;
     background-size: contain;
