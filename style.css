@@ -6917,3 +6917,719 @@ img {
     
 }
 
+
+/* ==================================================== */
+/*                 CLOUD MIGRATION PAGE                 */
+/* ==================================================== */
+.cloud-migration-hero{
+    background-color: var(--dark);
+}
+
+.cloud-migration-bg{
+    padding: 5rem 0;
+    height: 80vh;
+    background-image: url('./img/cloud-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.cloud-migration-title{
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--yellow);
+    line-height: 1.2;
+    text-align: center;
+    width: 50rem;
+    margin: 3rem auto 5rem auto;
+}
+
+.cloud-migration-subtitle{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--light);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.cloud-migration-text{
+    color: var(--light);
+    font-size: 1.7rem;
+    opacity: 70%;
+    text-align: center;
+}
+
+@media screen and (max-width: 430px) {
+
+    .cloud-migration-bg{
+        height: 100vh;
+    }
+
+    .cloud-migration-title{
+        font-size: 3rem;
+        width: fit-content;
+    }
+
+    .cloud-migration-subtitle{
+        font-size: 2rem;
+    }
+    
+    .cloud-migration-text{
+        font-size: 1.5rem;
+        text-align: justify;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cloud-migration-btn{
+        margin: 3rem auto;
+    }
+}
+
+/* ============ STREAM-OPERATION SECTION ============ */
+.stream-operation{
+    padding-top: 5rem;
+    background-color: var(--dark);
+}
+
+.stream-operation-text h2{
+    font-size: 5rem;
+    color: var(--light);
+    font-weight: 600;
+    margin-bottom: 3rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.stream-operation-text h2 span{
+    color: var(--yellow);
+}
+
+.stream-operation-text p{
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--light);
+    opacity: 70%;
+    text-align: center;
+}
+
+.stream-operation-contents-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.stream-operation-cards{
+    padding: 2rem;
+    max-width: 25rem;
+    min-height: 25rem;
+    border-radius: 10px;
+    background: rgb(34,27,45);
+    background: linear-gradient(-180deg, rgba(34,27,45,1) 0%, rgba(42,36,64,1) 100%); 
+    border-radius: 10px;
+    box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -webkit-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -moz-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+}
+
+.stream-operation-cards h3{
+    color: var(--light);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.stream-operation-cards p{
+    color: var(--light);
+    opacity: 70%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 430px){
+    .stream-operation{
+        padding: 5rem 0;
+        background-color: var(--dark);
+    }
+
+    .stream-operation-contents-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .stream-operation-text h2{
+        text-align: center;
+        font-size: 3rem
+    }
+    
+    .stream-operation-text p{
+        text-align: justify;
+        font-size: 1.7rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .stream-operation-cards h3{
+        font-size: 2.2rem;
+    }
+    
+    .stream-operation-cards p{
+        font-size: 1.6rem;
+    }
+    
+}
+
+/* ============ MIGRATION CHALLENGES SECTION ============ */
+.migration-challenges{
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    background-color: var(--yellow);
+}
+
+.migration-challenges-title{
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 1rem;
+}
+
+.migration-challenges-subtitle{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--dark);
+    opacity: 90%;
+    margin: 0 auto;
+}
+
+.migration-challenges-bg{
+    background-image: url('./img/clouds-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 15rem;
+    background-position: bottom;
+}
+
+.migration-challenges-wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10rem;
+    margin-top: 8rem;
+}
+
+.migration-challenges-left, .migration-challenges-right{
+    width: 40rem;
+}
+
+.migration-challenges-left h2, .migration-challenges-right h2{
+    color: var(--dark);
+    font-size: 3rem;
+    font-weight: 700;
+    border-bottom: 3px solid var(--dark);
+}
+
+.migration-challenges-contents{
+    margin-top: 2rem;
+}
+
+.migration-challenges-contents-list{
+    margin-top: 10rem;
+    height: 9rem;
+}
+
+.migration-challenges-contents-list h3{
+    color: var(--dark);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.migration-challenges-contents-list p{
+    color: var(--dark);
+    font-size: 1.8rem;
+    margin-top: .5rem;
+}
+
+@media screen and (max-width: 430px){
+    .migration-challenges{
+        padding-top: 3rem;
+        padding-bottom: 10rem;
+    }
+    
+    .migration-challenges-title{
+        font-size: 3rem;
+        margin-bottom: 5rem;
+    }
+    
+    .migration-challenges-subtitle{
+        font-size: 1.7rem;
+        text-align: justify;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .migration-challenges-bg{
+        background-image: none;
+    }
+    
+
+    .migration-challenges-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 10rem;
+        margin-top: 5rem;
+    }
+    
+    .migration-challenges-left, .migration-challenges-right{
+        width: fit-content;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .migration-challenges-contents-list h3{
+        margin-bottom: 0;
+    }
+    
+    
+    .migration-challenges-contents-list{
+        margin-top: 8rem;
+    }
+
+}
+
+
+/* ============ ENHANCED VALUE SECTION ============ */
+.enhanced-value{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.enhanced-value-title{
+    font-size: 4.5rem;
+    color: var(--light);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+    line-height: 1.2;
+}
+
+.enhanced-value-title span{
+    color: var(--yellow);
+    display: block;
+}
+
+.enhanced-value-text{
+    color: var(--light);
+    opacity: 70%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.enhanced-value-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+    margin-top: 7rem;
+}
+
+.enhanced-value-card{
+    background-color: var(--grey);
+    padding: 3rem;
+    border-radius: 15px;
+}
+
+.enhanced-value-img{
+    background-color: var(--yellow);
+    border-radius: 10px;
+    padding: 1.5rem;
+    width: fit-content;
+}
+
+.enhanced-value-img img{
+    width: 4rem;
+}
+
+.enhanced-value-card h2{
+    color: var(--light);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.enhanced-value-card p{
+    color: var(--light);
+    font-size: 1.8rem;
+    opacity: 70%;
+}
+
+@media screen and (max-width: 430px){
+    .enhanced-value-title{
+        font-size: 2.5rem;
+    }
+    
+    .enhanced-value-text{
+        font-size: 1.5rem;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .enhanced-value-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .enhanced-value-card{
+        height: fit-content;
+    }
+    
+    .enhanced-value-img img{
+        width: 4rem;
+    }
+    
+    .enhanced-value-card h2{
+        color: var(--light);
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 2rem 0;
+    }
+    
+    .enhanced-value-card p{
+        color: var(--light);
+        font-size: 1.5rem;
+        opacity: 70%;
+    }
+}
+
+
+/* ==================================================== */
+/*                 CLOUD AUTOMATION PAGE                 */
+/* ==================================================== */
+.cloud-automation-hero{
+    background-color: var(--dark);
+}
+
+.cloud-automation-bg{
+    padding: 5rem 0;
+    height: 80vh;
+    background-image: url('./img/cloud-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.cloud-automation-title{
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--yellow);
+    line-height: 1.2;
+    text-align: center;
+    width: 50rem;
+    margin: 3rem auto 5rem auto;
+}
+
+.cloud-automation-subtitle{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--light);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.cloud-automation-text{
+    color: var(--light);
+    font-size: 1.7rem;
+    opacity: 70%;
+    text-align: center;
+}
+
+@media screen and (max-width: 430px) {
+
+    .cloud-automation-bg{
+        height: 100vh;
+    }
+
+    .cloud-automation-title{
+        font-size: 3rem;
+        width: fit-content;
+    }
+
+    .cloud-automation-subtitle{
+        font-size: 2rem;
+    }
+    
+    .cloud-automation-text{
+        font-size: 1.5rem;
+        text-align: justify;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .cloud-automation-btn{
+        margin: 3rem auto;
+    }
+}
+
+/* ============ DEVOPS SECTION ============ */
+.devops{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.devops-bg{
+    background-image: url('./img/cloud-auto-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.devops-wrapper h2{
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--yellow);
+}
+
+.devops-wrapper p{
+    font-size: 1.8rem;
+    color: var(--light);
+    opacity: 70%;
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.devops-img{
+    margin-top: 5rem;
+}
+
+@media screen and (max-width: 430px) {
+    .devops{
+        padding: 3rem 0;
+    }
+    
+    .devops-wrapper h2{
+        font-size: 3rem;
+    }
+
+    .devops-wrapper{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .devops-wrapper p{
+        font-size: 1.7rem;
+    }
+    
+    .devops-img{
+        margin-top: 3rem;
+    }
+    
+}
+
+/* ============ IMPACT AUTOMATION SECTION ============ */
+.impact-automation{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.impact-automation-text h2{
+    font-size: 5rem;
+    color: var(--light);
+    font-weight: 600;
+    margin-bottom: 3rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.impact-automation-text p{
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--light);
+    opacity: 70%;
+    text-align: center;
+}
+
+.impact-automation-contents-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.impact-automation-cards{
+    padding: 2rem;
+    border-radius: 10px;
+    background: rgb(34,27,45);
+    background: linear-gradient(-180deg, rgba(34,27,45,1) 0%, rgba(42,36,64,1) 100%); 
+    border-radius: 10px;
+    box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -webkit-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -moz-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+}
+
+.impact-automation-cards h3{
+    color: var(--light);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.impact-automation-cards p{
+    color: var(--light);
+    opacity: 70%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 430px){
+    .impact-automation{
+        padding: 5rem 0;
+        background-color: var(--dark);
+    }
+
+    .impact-automation-contents-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .impact-automation-text h2{
+        text-align: center;
+        font-size: 3rem
+    }
+    
+    .impact-automation-text p{
+        text-align: justify;
+        font-size: 1.7rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .impact-automation-cards h3{
+        font-size: 2.2rem;
+    }
+    
+    .impact-automation-cards p{
+        font-size: 1.6rem;
+    }
+    
+}
+
+/* ============ IMPACT AUTOMATION SECTION ============ */
+.devops-engineer{
+    padding: 3rem 0;
+    background-color: var(--dark);
+}
+
+.devops-engineer-content{
+    background-color: var(--yellow);
+    padding: 5rem;
+}
+
+.devops-engineer-content-title{
+    font-size: 5rem;
+    font-weight: 700;
+    color: var(--dark);
+    margin-bottom: 2rem;
+}
+
+.devops-engineer-content-subtitle{
+    color: var(--dark);
+    font-size: 2rem;
+    opacity: 70%;
+}
+
+.devops-engineer-content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+}
+
+.devops-engineer-content-img{
+    width: 80rem;
+}
+
+.devops-engineer-content-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.devops-engineer-content-cards-icons{
+    display: flex;
+    justify-content: end;
+}
+
+.devops-engineer-content-cards h3{
+    color: var(--dark);
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+.devops-engineer-content-cards p{
+    color: var(--dark);
+    font-size: 1.6rem;
+    text-align: right;
+}
+
+@media screen and (max-width: 430px) {
+
+    .devops-engineer-content{
+        padding: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .devops-engineer-content-title{
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .devops-engineer-content-subtitle{
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    
+    .devops-engineer-content-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .devops-engineer-content-img{
+        width: fit-content;
+    }
+
+    .devops-engineer-content-cards-icons{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .devops-engineer-content-cards h3{
+        color: var(--dark);
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .devops-engineer-content-cards p{
+        font-size: 1.8rem;
+        text-align: justify;
+    }
+
+}
