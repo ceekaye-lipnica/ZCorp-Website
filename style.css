@@ -7633,3 +7633,358 @@ img {
     }
 
 }
+
+
+/* ==================================================== */
+/*              BUSINESS CONSULTATION PAGE              */
+/* ==================================================== */
+.business-consultation{
+    background-color: var(--dark);
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+
+}
+
+.business-consultation-bg{
+    height: 70vh;
+    background-image: url('./img/industries-sub-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.business-consultation-title{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: var(--light);
+    margin-top: -10rem;
+}
+
+.business-consultation-wrapper{
+    margin-top: 10rem;
+}
+
+.business-consultation-wrapper h2{
+    font-size: 7rem;
+    color: var(--light);
+    font-weight: 700;
+    width: 60%;
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.business-consultation-wrapper p{
+    color: var(--light);
+    opacity: 70%;
+    font-size: 2rem;
+    width: 80%;
+}
+
+@media screen and (max-width: 430px) {
+    
+    .business-consultation-bg{
+        height: 100h;
+    }
+    
+    .business-consultation-title{
+        font-size: 3rem;
+        margin-top: -9rem;
+    }
+
+    .business-consultation-wrapper{
+        margin-top: 15rem;
+    }
+    
+    .business-consultation-wrapper h2{
+        font-size: 4rem;
+        width: 95%;
+        text-align: center;
+        margin: 0 auto 5rem auto;
+    }
+    
+    .business-consultation-wrapper p{
+        color: var(--light);
+        opacity: 70%;
+        font-size: 2rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+/* ============ IMPACT AUTOMATION SECTION ============ */
+.business-developing{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.business-developing-text{
+    font-size: 5rem;
+    color: var(--light);
+    font-weight: 600;
+    margin-bottom: 3rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.business-developing-contents-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.business-developing-cards{
+    padding: 2rem;
+    border-radius: 10px;
+    width: 35rem;
+    height: 15rem;
+    background: rgb(34,27,45);
+    background: linear-gradient(-180deg, rgba(34,27,45,1) 0%, rgba(42,36,64,1) 100%); 
+    border-radius: 10px;
+    box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -webkit-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -moz-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+}
+
+.business-developing-cards h3{
+    color: var(--light);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.business-developing-cards p{
+    color: var(--light);
+    opacity: 70%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 430px){
+    .business-developing{
+        padding: 5rem 0;
+        background-color: var(--dark);
+    }
+
+    .business-developing-contents-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .business-developing-text{
+        text-align: center;
+        font-size: 3rem
+    }
+
+    .business-developing-cards h3{
+        font-size: 2.2rem;
+    }
+    
+    .business-developing-cards p{
+        font-size: 1.6rem;
+    }
+    
+}
+
+
+/* ============ BUSINESS SERVICES SECTION ============ */
+.business-services{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.business-services-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+}
+
+.business-services-right img{
+    width: 60rem;
+}
+
+.business-services-left-label{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--light);
+    margin: 3rem 0;
+}
+
+.business-services-left-label span{
+    color: var(--yellow);
+}
+
+.business-services-left-list{
+    margin-top: 3rem;
+}
+
+.business-services-left-list li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.business-services-left-list li img{
+    min-height: 2rem;
+}
+
+.business-services-left-list li p{
+    color: var(--light);
+    font-size: 1.7rem;
+    opacity: 70%;
+}
+
+
+@media screen and (max-width: 430px) {
+    .business-services{
+        padding: 5rem 0;
+    }
+
+    .business-services-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .business-services-right img{
+        display: none;
+    }
+    
+    .business-services-left-label{
+        font-size: 3rem;
+    }
+
+    .business-services-left-list{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .business-services-left-label{
+        margin: 3rem 0;
+        margin-left: 2rem;
+    }
+
+}
+
+
+/* ============ BUSINESS MORE SERVICES SECTION ============ */
+.business-more-services{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.business-more-services-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.business-more-services-title h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--light);
+}
+
+.business-more-services-bigTitle{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--light);
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 2rem;
+}
+
+.business-more-services-wrapper{
+    margin-top: 8rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.business-more-services-item{
+    padding: 3rem;
+    background-color: var(--dark);
+    width: 30rem;
+    border-right: 2px solid var(--yellow);
+}
+
+.business-more-services-text h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--light);
+    width: 15rem;
+    height: 6rem;
+    margin-bottom: 3rem;
+}
+
+.business-more-services-text p{
+    font-size: 1.3rem;
+    color: var(--light);
+    opacity: 70%;
+    height: 15rem;
+}
+
+.business-more-services-explore{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;;
+}
+
+.business-more-services-explore a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--light);
+    font-size: 1.2rem;
+}
+.business-more-services-explore a i{
+    font-size: 1rem;
+}
+
+.business-more-services-explore img{
+    width: 5rem;
+}
+
+/* SLIDER CSS */
+.business-more-services .tns-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+@media screen and (max-width: 430px) {
+
+    .business-more-services-title h2{
+        font-size: 2.5rem;
+    }
+    
+    .business-more-services-bigTitle{
+        font-size: 3.5rem;
+    }
+
+    .business-more-services-item{
+        padding: 3rem;
+        background-color: var(--dark);
+        width: 30rem;
+        border-right: 2px solid transparent;
+        border-bottom: 2px solid var(--yellow); 
+        border-top: 2px solid var(--yellow); 
+    }
+    
+    div#tns1-mw {
+        margin: 0 .5rem;
+    }
+}
