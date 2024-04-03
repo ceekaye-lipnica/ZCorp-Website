@@ -7714,7 +7714,7 @@ img {
 }
 
 
-/* ============ IMPACT AUTOMATION SECTION ============ */
+/* ============ BUSINESS DEVELOPING SECTION ============ */
 .business-developing{
     padding: 5rem 0;
     background-color: var(--dark);
@@ -7988,3 +7988,714 @@ img {
         margin: 0 .5rem;
     }
 }
+
+
+/* ==================================================== */
+/*                      UI UX PAGE                      */
+/* ==================================================== */
+.uiux-hero{
+    background-color: var(--dark);
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+
+}
+
+.uiux-hero-bg{
+    height: 70vh;
+    background-image: url('./img/industries-sub-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.uiux-hero-title{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: var(--light);
+    margin-top: -10rem;
+}
+
+.uiux-hero-wrapper{
+    margin-top: 10rem;
+}
+
+.uiux-hero-wrapper h2{
+    font-size: 7rem;
+    color: var(--light);
+    font-weight: 700;
+    width: 70%;
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.uiux-hero-wrapper p{
+    color: var(--light);
+    opacity: 70%;
+    font-size: 2rem;
+    width: 80%;
+}
+
+@media screen and (max-width: 430px) {
+    
+    .uiux-hero-bg{
+        height: 100h;
+    }
+    
+    .uiux-hero-title{
+        font-size: 3rem;
+        margin-top: -9rem;
+    }
+
+    .uiux-hero-wrapper{
+        margin-top: 15rem;
+    }
+    
+    .uiux-hero-wrapper h2{
+        font-size: 4rem;
+        width: 95%;
+        text-align: center;
+        margin: 0 auto 5rem auto;
+    }
+    
+    .uiux-hero-wrapper p{
+        color: var(--light);
+        opacity: 70%;
+        font-size: 2rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+/* ============ UI UX DESIGNING SECTION ============ */
+.uiux-designing{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.uiux-designing-text{
+    font-size: 5rem;
+    color: var(--light);
+    font-weight: 600;
+    margin-bottom: 3rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.uiux-designing-contents-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.uiux-designing-cards{
+    padding: 2rem;
+    border-radius: 10px;
+    width: 35rem;
+    height: 15rem;
+    background: rgb(34,27,45);
+    background: linear-gradient(-180deg, rgba(34,27,45,1) 0%, rgba(42,36,64,1) 100%); 
+    border-radius: 10px;
+    box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -webkit-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -moz-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+}
+
+.uiux-designing-cards h3{
+    color: var(--light);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.uiux-designing-cards p{
+    color: var(--light);
+    opacity: 70%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 430px){
+    .uiux-designing{
+        padding: 5rem 0;
+        background-color: var(--dark);
+    }
+
+    .uiux-designing-contents-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .uiux-designing-text{
+        text-align: center;
+        font-size: 3rem
+    }
+
+    .uiux-designing-cards h3{
+        font-size: 2.2rem;
+    }
+    
+    .uiux-designing-cards p{
+        font-size: 1.6rem;
+    }
+    
+}
+
+
+/* ============ BUSINESS SERVICES SECTION ============ */
+.uiux-services{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.uiux-services-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+}
+
+.uiux-services-right img{
+    width: 60rem;
+}
+
+.uiux-services-left-label{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--light);
+    margin: 3rem 0;
+}
+
+.uiux-services-left-label span{
+    color: var(--yellow);
+}
+
+.uiux-services-left-list{
+    margin-top: 3rem;
+}
+
+.uiux-services-left-list li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.uiux-services-left-list li img{
+    min-height: 2rem;
+}
+
+.uiux-services-left-list li p{
+    color: var(--light);
+    font-size: 1.7rem;
+    opacity: 70%;
+}
+
+
+@media screen and (max-width: 430px) {
+    .uiux-services{
+        padding: 5rem 0;
+    }
+
+    .uiux-services-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .uiux-services-right img{
+        display: none;
+    }
+    
+    .uiux-services-left-label{
+        font-size: 3rem;
+    }
+
+    .uiux-services-left-list{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .uiux-services-left-label{
+        margin: 3rem 0;
+        margin-left: 2rem;
+    }
+
+}
+
+
+/* ============ BUSINESS MORE SERVICES SECTION ============ */
+.uiux-more-services{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.uiux-more-services-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.uiux-more-services-title h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--light);
+}
+
+.uiux-more-services-bigTitle{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--light);
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 2rem;
+}
+
+.uiux-more-services-wrapper{
+    margin-top: 8rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.uiux-more-services-item{
+    padding: 3rem;
+    background-color: var(--dark);
+    width: 30rem;
+    border-right: 2px solid var(--yellow);
+}
+
+.uiux-more-services-text h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--light);
+    width: 15rem;
+    height: 6rem;
+    margin-bottom: 3rem;
+}
+
+.uiux-more-services-text p{
+    font-size: 1.3rem;
+    color: var(--light);
+    opacity: 70%;
+    height: 15rem;
+}
+
+.uiux-more-services-explore{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;;
+}
+
+.uiux-more-services-explore a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--light);
+    font-size: 1.2rem;
+}
+.uiux-more-services-explore a i{
+    font-size: 1rem;
+}
+
+.uiux-more-services-explore img{
+    width: 5rem;
+}
+
+/* SLIDER CSS */
+.uiux-more-services .tns-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+@media screen and (max-width: 430px) {
+
+    .uiux-more-services-title h2{
+        font-size: 2.5rem;
+    }
+    
+    .uiux-more-services-bigTitle{
+        font-size: 3.5rem;
+    }
+
+    .uiux-more-services-item{
+        padding: 3rem;
+        background-color: var(--dark);
+        width: 30rem;
+        border-right: 2px solid transparent;
+        border-bottom: 2px solid var(--yellow); 
+        border-top: 2px solid var(--yellow); 
+    }
+    
+    div#tns1-mw {
+        margin: 0 .5rem;
+    }
+}
+
+
+/* ==================================================== */
+/*                 DIGITAL MARKETING PAGE               */
+/* ==================================================== */
+.digital-marketing{
+    background-color: var(--dark);
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+
+}
+
+.digital-marketing-bg{
+    height: 70vh;
+    background-image: url('./img/industries-sub-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.digital-marketing-title{
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    color: var(--light);
+    margin-top: -10rem;
+}
+
+.digital-marketing-wrapper{
+    margin-top: 10rem;
+}
+
+.digital-marketing-wrapper h2{
+    font-size: 7rem;
+    color: var(--light);
+    font-weight: 700;
+    width: 70%;
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.digital-marketing-wrapper p{
+    color: var(--light);
+    opacity: 70%;
+    font-size: 2rem;
+    width: 80%;
+}
+
+@media screen and (max-width: 430px) {
+    
+    .digital-marketing-bg{
+        height: 100h;
+    }
+    
+    .digital-marketing-title{
+        font-size: 3rem;
+        margin-top: -9rem;
+    }
+
+    .digital-marketing-wrapper{
+        margin-top: 15rem;
+    }
+    
+    .digital-marketing-wrapper h2{
+        font-size: 4rem;
+        width: 95%;
+        text-align: center;
+        margin: 0 auto 5rem auto;
+    }
+    
+    .digital-marketing-wrapper p{
+        color: var(--light);
+        opacity: 70%;
+        font-size: 2rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+
+/* ============ DIGITAL OFFER SECTION ============ */
+.digital-offer{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.digital-offer-text{
+    font-size: 5rem;
+    color: var(--light);
+    font-weight: 600;
+    margin-bottom: 3rem;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.digital-offer-contents-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.digital-offer-cards{
+    padding: 2rem;
+    border-radius: 10px;
+    width: 35rem;
+    height: 18rem;
+    background: rgb(34,27,45);
+    background: linear-gradient(-180deg, rgba(34,27,45,1) 0%, rgba(42,36,64,1) 100%); 
+    border-radius: 10px;
+    box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -webkit-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+    -moz-box-shadow: 13px 14px 19px -10px rgba(75,63,109,1) inset;
+}
+
+.digital-offer-cards h3{
+    color: var(--light);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.digital-offer-cards p{
+    color: var(--light);
+    opacity: 70%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 430px){
+    .digital-offer{
+        padding: 5rem 0;
+        background-color: var(--dark);
+    }
+
+    .digital-offer-contents-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .digital-offer-text{
+        text-align: center;
+        font-size: 3rem
+    }
+
+    .digital-offer-cards h3{
+        font-size: 2.2rem;
+    }
+    
+    .digital-offer-cards p{
+        font-size: 1.6rem;
+    }
+    
+}
+
+
+/* ============ DIGITAL SERVICES SECTION ============ */
+.digital-services{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.digital-services-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10rem;
+}
+
+.digital-services-right img{
+    width: 60rem;
+}
+
+.digital-services-left-label{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--light);
+    margin: 3rem 0;
+}
+
+.digital-services-left-label span{
+    color: var(--yellow);
+}
+
+.digital-services-left-list{
+    margin-top: 3rem;
+}
+
+.digital-services-left-list li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.digital-services-left-list li img{
+    min-height: 2rem;
+}
+
+.digital-services-left-list li p{
+    color: var(--light);
+    font-size: 1.7rem;
+    opacity: 70%;
+}
+
+
+@media screen and (max-width: 430px) {
+    .digital-services{
+        padding: 5rem 0;
+    }
+
+    .digital-services-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .digital-services-right img{
+        display: none;
+    }
+    
+    .digital-services-left-label{
+        font-size: 3rem;
+    }
+
+    .digital-services-left-list{
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .digital-services-left-label{
+        margin: 3rem 0;
+        margin-left: 2rem;
+    }
+
+}
+
+
+/* ============ BUSINESS MORE SERVICES SECTION ============ */
+.digital-more-services{
+    padding: 5rem 0;
+    background-color: var(--dark);
+}
+
+.digital-more-services-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.digital-more-services-title h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--light);
+}
+
+.digital-more-services-bigTitle{
+    font-size: 5rem;
+    font-weight: 600;
+    color: var(--light);
+    text-align: center;
+    line-height: 1.2;
+    margin-top: 2rem;
+}
+
+.digital-more-services-wrapper{
+    margin-top: 8rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.digital-more-services-item{
+    padding: 3rem;
+    background-color: var(--dark);
+    width: 30rem;
+    border-right: 2px solid var(--yellow);
+}
+
+.digital-more-services-text h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--light);
+    width: 15rem;
+    height: 6rem;
+    margin-bottom: 3rem;
+}
+
+.digital-more-services-text p{
+    font-size: 1.3rem;
+    color: var(--light);
+    opacity: 70%;
+    height: 15rem;
+}
+
+.digital-more-services-explore{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;;
+}
+
+.digital-more-services-explore a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--light);
+    font-size: 1.2rem;
+}
+.digital-more-services-explore a i{
+    font-size: 1rem;
+}
+
+.digital-more-services-explore img{
+    width: 5rem;
+}
+
+/* SLIDER CSS */
+.digital-more-services .tns-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+@media screen and (max-width: 430px) {
+
+    .digital-more-services-title h2{
+        font-size: 2.5rem;
+    }
+    
+    .digital-more-services-bigTitle{
+        font-size: 3.5rem;
+    }
+
+    .digital-more-services-item{
+        padding: 3rem;
+        background-color: var(--dark);
+        width: 30rem;
+        border-right: 2px solid transparent;
+        border-bottom: 2px solid var(--yellow); 
+        border-top: 2px solid var(--yellow); 
+    }
+    
+    div#tns1-mw {
+        margin: 0 .5rem;
+    }
+}
+
