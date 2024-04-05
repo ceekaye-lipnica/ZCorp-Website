@@ -588,7 +588,11 @@ img {
 }
 
 .hero-btn p{
-    color: var(--light)
+    color: var(--light);
+    font-weight: 700;
+}
+.hero-btn:hover p{
+    color: var(--dark)
 }
 
 .hero-box{
@@ -1497,6 +1501,14 @@ img {
     font-size: 1.3rem;
 }
 
+.sub-section-3-btn:hover a{
+    color: var(--dark);
+    cursor: pointer;
+}
+.sub-section-3-btn:hover{
+    cursor: pointer;
+}
+
 /* SUB SECTION 4 MOBILE LAYOUT */
 @media screen and (max-width: 430px) {
     .sub-section-3{
@@ -1606,6 +1618,11 @@ img {
 
 .sub-section-4-contents-down a{
     color: var(--light);
+    font-size: 1.5rem;
+}
+
+.sub-section-4-contents-down a:hover{
+    color: var(--yellow);
 }
 
 .sub-section-4-contents-down a i{
@@ -2612,6 +2629,13 @@ img {
 
 .soft-dev-btn a{
     color: var(--light);
+}
+.soft-dev-btn:hover a{
+    color: var(--dark);
+    font-weight: 700;
+}
+.soft-dev-btn:hover{
+    cursor: pointer;
 }
 
 @media screen and (max-width: 430px){
@@ -3743,7 +3767,7 @@ img {
 @media screen and (max-width: 430px) {
 
     .web-app-bg{
-        height: 70vh;
+        height: 100vh;
     }
 
     .web-app-title{
@@ -5968,6 +5992,7 @@ img {
 
     .cloud-computing-right-text{
         text-align: justify;
+        font-size: 1.7rem;
     }
 }
 
