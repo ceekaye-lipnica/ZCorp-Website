@@ -791,6 +791,13 @@ img {
 
 .services-item{
     position: relative;
+    transition: .5s ease;
+}
+
+.services-item:hover{
+    scale: 1.10;
+    cursor: pointer;
+    transition: .5s ease;
 }
 
 .services-item-bg{
@@ -2226,6 +2233,13 @@ img {
 
 .contact-services-item{
     position: relative;
+    transition: .5s ease;
+}
+
+.contact-services-item:hover{
+    scale: .9;
+    cursor: pointer;
+    transition: .5s ease;
 }
 
 .contact-services-item:hover{
@@ -2690,6 +2704,13 @@ img {
 
 .soft-dev-services-item{
     position: relative;
+    transition: .5s ease;
+}
+
+.soft-dev-services-item:hover{
+    scale: 1.10;
+    cursor: pointer;
+    transition: .5s ease;
 }
 
 .soft-dev-services-item-bg{
@@ -2907,9 +2928,25 @@ img {
     padding: 2rem;
 }
 
+.advance-item:hover{
+    cursor: pointer;
+}
+
+.advance-item-holder{
+    position: relative;
+    overflow: hidden;
+}
+
 .advance-item-bg{
     width: 50rem;
     height: 20rem;
+    transition: .5s ease;
+}
+
+.advance-item-bg:hover{
+    scale: 1.15;
+    transition: .5s ease;
+    cursor: pointer;
 }
 
 .advance-text h3{
@@ -3013,6 +3050,7 @@ img {
     margin-bottom: 2rem;
 }
 
+
 .process-contents-title h2{
     color: var(--light);
     font-weight: 600;
@@ -3040,6 +3078,13 @@ img {
 
 .process-contents-img img{
     width: 35rem;
+    transition: .5s ease;
+}
+
+.process-contents-img img:hover{
+    transition: .5s ease;
+    scale: 0.9;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 430px){
@@ -5851,11 +5896,20 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    overflow: hidden;
 }
 
 .cloud-platform-card-img img{
     max-width: 30rem;
-    max-height: 30rem ;
+    max-height: 30rem;
+    transition: .5s ease;
+}
+
+.cloud-platform-card-img img:hover{
+    transition: .5s ease;
+    scale: 1.15;
+    cursor: pointer;
 }
 
 .cloud-platform-card-text {
